@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.planet-image {
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .planet-image {
+    width: 400px;
+    height: 290;
+  }
+}
+.planet-name {
+  color: #f8fafc;
+  font-size: 20px;
+  font-family: 'roboto';
+  text-align: center;
+  margin: 20px;
+}
+.planet-description {
+  color: #f1f5f9;
+  text-align: center;
+}
+.planet-container {
+  margin-top: 25px;
+}
